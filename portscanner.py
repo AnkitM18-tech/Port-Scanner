@@ -28,7 +28,7 @@ def worker():
             print(f'Port {port} is open')
             open_ports.append(port)
 
-
+#Creating Portlist
 portlist = range(1, 1024)
 fill_queue(portlist)
 
